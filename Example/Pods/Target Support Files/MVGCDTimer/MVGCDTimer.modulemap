@@ -1,0 +1,6 @@
+framework module MVGCDTimer {
+  umbrella header "MVGCDTimer-umbrella.h"
+
+  export *
+  module * { export * }
+}
