@@ -20,7 +20,7 @@ pod 'MVGCDTimer'
 
 ## Author
 
-maximv88, maximv88@gmail.com
+Maxim Vainshtein, maximv88@gmail.com
 
 ## License
 
