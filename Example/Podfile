@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MVGCDTimer_Tests' do
+  pod 'MVGCDTimer', :path => '../'
+  
+  
+end
