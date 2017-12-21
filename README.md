@@ -5,11 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/MVGCDTimer.svg?style=flat)](http://cocoapods.org/pods/MVGCDTimer)
 [![Platform](https://img.shields.io/cocoapods/p/MVGCDTimer.svg?style=flat)](http://cocoapods.org/pods/MVGCDTimer)
 
-## Example
+## Description
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+This timer abstracts interaction with dispatch commands into a simple timer interface that is similar to NSTimer, but with the added benefit of changing trigger block at any time and restart count.
 
 ## Installation
 
