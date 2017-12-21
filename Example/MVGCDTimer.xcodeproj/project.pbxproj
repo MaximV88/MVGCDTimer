@@ -28,9 +28,9 @@
 		62A674AB6858E94E1E676406 /* Pods-MVGCDTimer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVGCDTimer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVGCDTimer_Tests/Pods-MVGCDTimer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		860FFC81AE761B5FF36882D7 /* Pods_MVGCDTimer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVGCDTimer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A21E241369A45C109D31129D /* Pods-MVGCDTimer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVGCDTimer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVGCDTimer_Tests/Pods-MVGCDTimer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C1A60B3D07F7A98981EDDF3A /* MVGCDTimer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MVGCDTimer.podspec; path = ../MVGCDTimer.podspec; sourceTree = "<group>"; };
-		D029085DA459E0CB1669659E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D3002C47BE42257EB4BCCD3C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C1A60B3D07F7A98981EDDF3A /* MVGCDTimer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MVGCDTimer.podspec; path = ../MVGCDTimer.podspec; sourceTree = "<group>"; };
+		D029085DA459E0CB1669659E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D3002C47BE42257EB4BCCD3C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,11 +149,6 @@
 				CLASSPREFIX = MV;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = maximv88;
-				TargetAttributes = {
-					6003F5AD195388D20070C39A = {
-						TestTargetID = 6003F589195388D20070C39A;
-					};
-				};
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "MVGCDTimer" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -352,7 +347,6 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVGCDTimer_Example.app/MVGCDTimer_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -371,7 +365,6 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVGCDTimer_Example.app/MVGCDTimer_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
